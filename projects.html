@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nuha Saeed | Projects</title>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body class="dark">
+
+<header>
+  <h2>Nuha AlQahtani</h2>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="skills.html">Skills</a>
+    <a href="projects.html" class="active">Projects</a>
+    <a href="contact.html">Contact</a>
+    <button id="theme-toggle">🌞</button>
+  </nav>
+</header>
+
+<section id="projects-page">
+  <div class="container">
+    <h2>My Projects</h2>
+
+    <div class="filter-btns">
+      <button data-filter="all">All</button>
+      <button data-filter="web">Web</button>
+      <button data-filter="data">Data</button>
+      <button data-filter="api">API</button>
+    </div>
+
+    <div class="projects-grid">
+      <div class="card" data-type="web">
+        <img src="project1.jpg" alt="Student Management System">
+        <div class="overlay">
+          <a href="https://github.com/naaahhha12" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+        </div>
+        <h3>Student Management System</h3>
+        <p>Full CRUD system with database and user roles.</p>
+      </div>
+      <div class="card" data-type="data">
+        <img src="project2.jpg" alt="Employee Management System">
+        <div class="overlay">
+          <a href="https://github.com/naaahhha12" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+        </div>
+        <h3>Employee Management System</h3>
+        <p>CRUD system to manage employee records securely.</p>
+      </div>
+      <div class="card" data-type="api">
+        <img src="project3.jpg" alt="REST API">
+        <div class="overlay">
+          <a href="https://github.com/naaahhha12" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+        </div>
+        <h3>REST API</h3>
+        <p>API with JWT Authentication and structured endpoints.</p>
+      </div>
+      <div class="card" data-type="web">
+        <img src="project4.jpg" alt="Portfolio Website">
+        <div class="overlay">
+          <a href="https://github.com/naaahhha12" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+        </div>
+        <h3>Portfolio Website</h3>
+        <p>Personal portfolio showcasing projects and skills.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Nuha Saeed | Designed by Nuha</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
